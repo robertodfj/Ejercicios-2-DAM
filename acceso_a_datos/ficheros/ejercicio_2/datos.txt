@@ -1,0 +1,4 @@
+1, Ratón inalámbrico, Periféricos, 19.99, 34
+2, Teclado mecánico, Periféricos, 59.90, 20
+3, Monitor 24'', Pantallas, 149.99, 12
+4, Cascos, Periferico, 83, 20

@@ -1,0 +1,7 @@
+El problema
+	1.	Hay N filósofos sentados alrededor de una mesa redonda.
+	2.	Entre cada par de filósofos hay un tenedor (o palillo).
+	3.	Cada filósofo alterna entre pensar y comer.
+	4.	Para comer, un filósofo necesita tomar los dos tenedores que tiene a los lados.
+	5.	El objetivo es implementar la solución de manera que no haya interbloqueos (deadlock) ni que algún filósofo se quede hambriento indefinidamente.
+

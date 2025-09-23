@@ -1,0 +1,11 @@
+-1, Sara, Sánchez, Finanzas, 3000.00, 2020-12-20
+1, Laura, Pérez, Marketing, 2400.50, 2019-03-15
+2, Carlos, Martínez, IT, 3100.00, 2018-06-12
+3, Marta, López, Ventas, 2200.75, 2020-09-01
+4, Juan, Fernández, RRHH, 2800.00, 2017-11-23
+5, Pedro, Torres, IT, 3300.25, 2016-05-18
+6, Ana, González, Finanzas, 2950.00, 2019-01-30
+7, Javier, Ramos, Marketing, 2500.40, 2021-07-09
+8, María, Vega, Ventas, 2100.60, 2018-04-04
+9, Luis, Navarro, IT, 3400.80, 2015-02-10
+10, Sara, Sánchez, Finanzas, 3000.00, 2020-12-20

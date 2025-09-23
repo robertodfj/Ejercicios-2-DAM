@@ -1,0 +1,11 @@
+	1.	Hay un almacén con capacidad máxima de 5 panes.
+	2.	El panadero produce un pan cada cierto tiempo y lo guarda en el almacén.
+	    •	Si el almacén está lleno, espera (wait()) hasta que algún cliente consuma.
+	3.	Los clientes consumen panes del almacén.
+	    •	Si el almacén está vacío, esperan (wait()) hasta que el panadero produzca un pan.
+	4.	Se deben imprimir mensajes en consola cuando:
+	    •	El panadero produce un pan ("Panadero produjo un pan").
+	    •	Un cliente consume un pan ("Cliente X consumió un pan").
+	5.	Se debe usar synchronized, wait() y notifyAll() para coordinar los hilos.
+
+⸻

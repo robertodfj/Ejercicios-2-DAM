@@ -1,0 +1,13 @@
+Laura, Pérez, Rodriguez, 17/11/1982, 914567890 laura.perez.rodriguez@dominio.com
+nombre, apellido1, apellido2, fechaNac, telefono, email
+Carlos, Martínez, Vargas, 12/3/1984, 952345678, carlos.martinez.vargas@dominio.com
+Juan, González, Fernández, 5/8/1996, 912345678, juan.gonzalez.fernandez@dominio.com
+Laura, Pérez, Rodriguez, 17/11/1982, 914567890 laura.perez.rodriguez@dominio.com
+Pedro, González, Torres, 21/6/1989,916789012,pedro.gonzalez.torres@dominio.com 
+María, Garcia, Hernández, 8/2/1998 917890123,maria.garcia.hernandez@dominio.com
+Carlos, González, Fernández, 6/9/1985, 914567532, carlos.gonzalez.fernandez@dominio.com
+Laura, López, Vargas, 3/4/1990, 918901234, laura.lopez.vargas@dominio.com
+Juan, González, Hernández, 10/1/1981,912341878,juan.gonzalez.hernandez@dominio.com
+Pedro, Garcia Rodriguez, 14/7/1993, 916724312,pedro.garcia.rodriguez@dominio.com
+María, López, Torres, 26/5/1992, 917888123, maria.lopez.torres@dominio.com
+

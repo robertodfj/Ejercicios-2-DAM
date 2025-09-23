@@ -1,0 +1,10 @@
+Problema de Estación de Carga de Vehículos Eléctricos
+	1.	Hay una estación de carga con un número limitado de puntos de carga.
+	2.	Existen dos tipos de hilos:
+	    •	Vehículos → llegan a la estación y ocupan un punto de carga disponible.
+	    •	Operarios → liberan un punto de carga cuando el vehículo termina.
+	3.	Reglas:
+	    •	Un vehículo no puede entrar si todos los puntos de carga están ocupados.
+	    •	Un operario no puede liberar un punto si no hay ningún vehículo cargando.
+	4.	Objetivo:
+	    •	Sincronizar el acceso a los puntos de carga, evitando condiciones de carrera y deadlocks.

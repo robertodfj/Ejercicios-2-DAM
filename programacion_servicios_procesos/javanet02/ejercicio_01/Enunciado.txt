@@ -1,0 +1,6 @@
+Ejercicio 1: Mini juego UDP
+
+Objetivo: Procesamiento de datos y lógica de servidor.
+	•	Cliente envía un número entre 1 y 100.
+	•	Servidor responde “mayor” o “menor” según el número secreto.
+	•	Cliente adivina el número en varias rondas hasta acertar.

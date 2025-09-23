@@ -1,0 +1,9 @@
+Problema de Productores y Consumidores
+	1.	Hay un buffer compartido (una lista o cola limitada).
+	2.	Existen dos tipos de hilos:
+	•	Productores → generan datos y los ponen en el buffer.
+	•	Consumidores → toman datos del buffer y los procesan.
+	3.	Reglas:
+	•	Un productor no puede añadir si el buffer está lleno.
+	•	Un consumidor no puede quitar si el buffer está vacío.
+	4.	El objetivo es sincronizar acceso al buffer, evitando condiciones de carrera y deadlocks.

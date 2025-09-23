@@ -1,0 +1,8 @@
+🚦 Enunciado: El cruce de coches en un puente de un solo carril
+
+Imagina un puente de un solo carril que conecta dos pueblos:
+	•	Los coches pueden venir desde el pueblo A o desde el pueblo B.
+	•	El puente solo permite el paso en una dirección a la vez.
+	•	Si ya hay coches cruzando desde un lado, los coches del otro lado deben esperar.
+	•	Varias coches del mismo lado pueden cruzar a la vez (si ya se abrió en esa dirección).
+	•	Cuando no hay coches en el puente, la dirección puede cambiar.

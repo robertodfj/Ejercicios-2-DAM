@@ -1,0 +1,8 @@
+El problema de lectores y escritores
+	1.	Hay un recurso compartido (por ejemplo, una base de datos o un archivo).
+	2.	Existen dos tipos de hilos: lectores y escritores.
+	    •	Los lectores pueden leer al mismo tiempo sin problemas.
+	    •	Los escritores necesitan acceso exclusivo (no puede haber lectores ni otros escritores mientras escriben).
+	3.	El reto es diseñar la sincronización de manera que:
+	    •	No haya deadlocks.
+	    •	No haya injusticia (lectores o escritores esperando indefinidamente).
