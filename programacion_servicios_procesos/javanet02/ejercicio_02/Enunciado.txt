@@ -1,0 +1,16 @@
+Crear un programa cliente-servidor en Java donde el cliente pueda enviar mensajes de texto al servidor y el servidor los reciba, los procese y devuelva una respuesta automática.
+
+⸻
+
+Requisitos
+	1.	Servidor UDP
+	•	Escucha en un puerto fijo (por ejemplo, 9000).
+	•	Recibe un mensaje del cliente.
+	•	Devuelve un mensaje de confirmación, por ejemplo:
+	•	"Mensaje recibido: [contenido]"
+	•	Si el cliente envía "adios", responde "Hasta luego!" y termina la comunicación.
+	2.	Cliente UDP
+	•	Pide al usuario que introduzca un mensaje por consola.
+	•	Envía el mensaje al servidor mediante UDP.
+	•	Muestra la respuesta del servidor.
+	•	Permite enviar varios mensajes hasta que escriba "adios".
