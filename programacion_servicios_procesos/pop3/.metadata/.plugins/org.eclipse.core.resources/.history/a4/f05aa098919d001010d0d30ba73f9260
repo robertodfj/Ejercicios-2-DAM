@@ -1,0 +1,5 @@
+package com.rdfj;
+
+public class Smtp {
+
+}
