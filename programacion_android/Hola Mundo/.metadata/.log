@@ -1,0 +1,10 @@
+!SESSION 2025-09-30 16:57:31.635 -----------------------------------------------
+eclipse.buildId=4.37.0.20250905-1455
+java.version=21.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.committers.product -keyring /Users/robertodfj/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.committers.product -keyring /Users/robertodfj/.eclipse_keyring
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-09-30 16:57:32.572
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (295) Component descriptor entry 'OSGI-INF/*.xml' not found

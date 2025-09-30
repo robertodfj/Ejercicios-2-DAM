@@ -1,0 +1,8 @@
+Primer paso:
+En el proyecto de java eclipse realizamos exportacion, java, run.
+
+Abrimos Launch4 añadimos el nombre del ejecutable y el jar.
+
+Se genera el exe. 
+
+A mi me falla al tener un procesador mac m4
