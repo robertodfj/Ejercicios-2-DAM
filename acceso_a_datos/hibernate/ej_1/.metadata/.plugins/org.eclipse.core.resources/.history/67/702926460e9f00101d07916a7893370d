@@ -1,0 +1,25 @@
+import java.lang.module.Configuration;
+
+import com.mysql.cj.xdevapi.SessionFactory;
+
+public class HibernateUtils {
+
+	private static final SessionFactory session = buildSessionFactory();
+	
+	private static SessionFactory builderSessionfactory() {
+		try {
+			return Configuration().configure().buildSessionFactory();
+		} catch (Exception e) {
+			System.out.println(e.printStackTrace()); 
+		}
+	}
+	
+	public static SessionFactory getSessionFactory() {
+		return session;
+	}
+	
+	public static SessionFactory close() {
+		return getSessionFactory().close();
+	}
+	
+}

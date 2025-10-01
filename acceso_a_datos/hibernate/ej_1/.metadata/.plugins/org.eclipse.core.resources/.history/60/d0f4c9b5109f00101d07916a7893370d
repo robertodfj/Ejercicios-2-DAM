@@ -1,0 +1,10 @@
+import HibernateUtils;
+
+public class Test {
+	public static void main(String[] args) {
+		System.out.println("Pruba de conexion");
+		
+		Session session = HibernateUtils.getSessionFactory().openSession();
+		session.beginTransaction();
+	}
+}

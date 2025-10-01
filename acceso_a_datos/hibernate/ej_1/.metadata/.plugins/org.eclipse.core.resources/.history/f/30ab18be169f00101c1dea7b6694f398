@@ -1,0 +1,87 @@
+package pojos;
+
+import java.util.Date;
+
+public class Empleados {
+	private int id;
+	private Date fechaNacimiento;
+	private String nombre;
+	private String apellido;
+	private enum Genero {M, F};
+	private Genero genero;
+	private Date fechaContratacion;
+	
+	public Empleados() {
+		
+	}
+
+	public Empleados(int id, Date fechaNacimiento, String nombre, String apellido, Genero genero,
+			Date fechaContratacion) {
+		super();
+		this.id = id;
+		this.fechaNacimiento = fechaNacimiento;
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.genero = genero;
+		this.fechaContratacion = fechaContratacion;
+	}
+
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public Date getFechaNacimiento() {
+		return fechaNacimiento;
+	}
+
+	public void setFechaNacimiento(Date fechaNacimiento) {
+		this.fechaNacimiento = fechaNacimiento;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getApellido() {
+		return apellido;
+	}
+
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
+	}
+
+	public Date getFechaContratacion() {
+		return fechaContratacion;
+	}
+
+	public void setFechaContratacion(Date fechaContratacion) {
+		this.fechaContratacion = fechaContratacion;
+	}
+	
+	public Genero getGenero() {
+		return genero;
+	}
+
+	public void setGenero(Genero genero) {
+		this.genero = genero;
+	}
+
+	@Override
+	public String toString() {
+		return "Empleados [id=" + id + ", fechaNacimiento=" + fechaNacimiento + ", nombre=" + nombre + ", apellido="
+				+ apellido + ", fechaContratacion=" + fechaContratacion + "]";
+	}
+	
+	
+	
+	
+}

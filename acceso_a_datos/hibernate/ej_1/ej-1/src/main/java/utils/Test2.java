@@ -1,0 +1,24 @@
+package utils;
+
+import org.hibernate.Session;
+
+import pojos.Empleados;
+
+public class Test2 {
+	public static void main(String[] args) {
+		System.out.println("Pruba 2:");
+		System.out.println(verEmpleado(1));
+		
+		// String sql = "SELECT * FROM empleados WHERE empleado_id = 1;"; MEJOR HACERLO COMO ABAJO
+	}
+	public static Empleados verEmpleado(int id) {
+		Session session = HibernateUtils.getSessionFactory().openSession();
+		System.out.println("Hibernate cargado");
+		session.beginTransaction();
+		
+		Empleados empleado = (Empleados)session.get(Empleados.class, id);
+		session.close();
+		
+		return empleado;
+	}
+}
