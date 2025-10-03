@@ -1,0 +1,22 @@
+🚗🚦 Problema del Parking Subterráneo
+
+Contexto
+
+Un parking subterráneo tiene un número limitado de plazas de aparcamiento.
+Existen dos tipos de hilos:
+	•	Coches → intentan entrar al parking y ocupar una plaza.
+	•	Personal de seguridad → cierra el parking temporalmente para hacer una inspección (nadie puede entrar ni salir mientras tanto).
+
+Reglas
+	1.	Un coche solo puede entrar si hay plazas libres y el parking no está cerrado.
+	2.	Un coche que entra ocupa una plaza durante un tiempo, y al salir libera la plaza.
+	3.	Mientras se realiza la inspección:
+	•	Los coches deben esperar (no pueden entrar).
+	•	Al terminar, los coches ya pueden volver a entrar.
+
+Objetivo
+
+Implementar la sincronización necesaria para evitar:
+	•	Condiciones de carrera (dos coches entrando en la misma plaza).
+	•	Deadlocks (hilos bloqueados esperando).
+	•	Entrada de coches durante la inspección.
