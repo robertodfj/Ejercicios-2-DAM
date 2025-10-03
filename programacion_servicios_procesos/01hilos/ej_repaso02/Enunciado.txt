@@ -1,0 +1,13 @@
+🏋️ Problema del Gimnasio con Máquinas de Ejercicio
+	1.	Un gimnasio tiene un número limitado de máquinas de ejercicio (por ejemplo, cintas de correr).
+	2.	Existen dos tipos de hilos:
+	•	Deportistas → llegan al gimnasio e intentan usar una máquina libre.
+	•	Personal de limpieza → solo puede limpiar una máquina cuando un deportista la deja libre.
+	3.	Reglas:
+	•	Un deportista no puede usar una máquina si todas están ocupadas.
+	•	El personal de limpieza no puede limpiar una máquina si no hay ninguna disponible (sin deportistas que hayan terminado).
+	4.	Objetivo:
+	•	Sincronizar el acceso a las máquinas, garantizando que:
+	•	No haya dos deportistas en la misma máquina.
+	•	El personal de limpieza solo actúe cuando corresponda.
+	•	Evitar condiciones de carrera y deadlocks.
