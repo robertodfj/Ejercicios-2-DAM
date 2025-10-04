@@ -1,0 +1,23 @@
+
+
+int número 1
+int número 2
+char operación 
+boolean nuevo numero 
+
+agregar numero =
+si nuevo numero true
+String números = numero pulsado 
+nuevo numero = falso
+inprimir en tv
+else
+numeros + numero pulsado
+imprimir números en tv
+
+agregar char =
+numero1 = double del string guardado
+nuevo numero = true
+
+resultado 
+numero2 = double del string gusrdsdo 
+hacer operaciones con swich
