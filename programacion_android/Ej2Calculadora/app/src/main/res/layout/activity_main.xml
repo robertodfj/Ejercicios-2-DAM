@@ -20,6 +20,20 @@
         android:gravity="center"
         tools:layout_editor_absoluteX="1dp" />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnModo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#625F5F"
+        android:text="☀️"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:cornerRadius="100dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
     <androidx.gridlayout.widget.GridLayout
         android:layout_width="411dp"
         android:layout_height="518dp"
@@ -231,4 +245,5 @@
 
 
     </androidx.gridlayout.widget.GridLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
