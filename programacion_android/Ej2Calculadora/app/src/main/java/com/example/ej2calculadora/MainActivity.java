@@ -2,10 +2,15 @@ package com.example.ej2calculadora;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -18,6 +23,11 @@ public class MainActivity extends AppCompatActivity {
 
     TextView textView;
     ConstraintLayout mainLayout;
+
+    // Historial de operaciones
+    Spinner historialOperaciones;
+    ArrayAdapter<String> adapter;
+    List<String> historial = new ArrayList<>();
 
     Double numero1 = (double) 0;
     Double numero2 = (double) 0;
@@ -64,6 +74,11 @@ public class MainActivity extends AppCompatActivity {
         btnModo = (Button) findViewById(R.id.btnModo);
         textView = (TextView) findViewById(R.id.textView);
         mainLayout = findViewById(R.id.main);
+        // Historial
+        historialOperaciones = findViewById(R.id.historialOperaciones);
+        adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, historial);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        historialOperaciones.setAdapter(adapter);
 
 
         // Listener de numeros y operadores:
@@ -142,6 +157,9 @@ public class MainActivity extends AppCompatActivity {
 
         textView.setText(String.valueOf(resultado));
         nuevoNumero = true;
+        String operacionCompleta = numero1 + "" +operador+""+numero2+ "= " + resultado;
+
+        agregarHistorial(operacionCompleta);
     }
 
     public void limpiar(){
@@ -163,6 +181,14 @@ public class MainActivity extends AppCompatActivity {
             mainLayout.setBackgroundColor(getResources().getColor(android.R.color.black));
             textView.setTextColor(getResources().getColor(android.R.color.white));
         }
+    }
+
+    public void agregarHistorial(String ope){
+        if (historial.size() == 3){
+            historial.remove(0);
+        }
+        historial.add(ope);
+        adapter.notifyDataSetChanged();
     }
 
 }
