@@ -1,0 +1,39 @@
+package ejercicio1;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class Algoritmo {
+	
+	// Convertir en hash el string que obtenemos
+	public String cifrar;
+
+	public Algoritmo(String cifrar) {
+		super();
+		this.cifrar = cifrar;
+	}
+
+	public String getCifrar() {
+		return cifrar;
+	}
+
+	public void setCifrar(String cifrar) {
+		this.cifrar = cifrar;
+	}
+	
+	
+	// Ciframos lo necesario
+	
+	try{
+		FileInputStream entrada = new FileInputStream(null);
+		
+	}catch(IOException e){
+		
+	}
+
+	
+	
+	
+	
+}
