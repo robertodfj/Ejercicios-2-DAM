@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clase>
+    <estudiante numero = "393">
+        <nombre>Antonio</nombre>
+        <apellido>Jimenez</apellido>
+    </estudiante>
+    <estudiante numero = "394">
+        <nombre>Karen</nombre>
+        <apellido>Gonzalez</apellido>
+    </estudiante>
+    <estudiante numero = "395">
+        <nombre>Ana</nombre>
+        <apellido>Ximenez</apellido>
+    </estudiante>
+</clase>

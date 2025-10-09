@@ -1,0 +1,22 @@
+package xml;
+
+import java.io.File;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+
+import org.w3c.dom.Document;
+
+public class Main {
+    public static void main(String[] args) {
+        try {
+            File archivo = new File("archivo.xml");
+            DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
+            Document dc = documentBuilder.parse(archivo);
+            
+            System.out.println("Elemento principal: " +dc.getDocumentElement().getNodeName());
+        } catch (Exception e) {
+        }
+    }
+}

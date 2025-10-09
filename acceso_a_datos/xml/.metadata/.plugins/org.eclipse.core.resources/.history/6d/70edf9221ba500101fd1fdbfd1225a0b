@@ -1,0 +1,10 @@
+package xml;
+
+public class Main {
+    public static void main(String[] args) {
+        try {
+            File archivo = new File("archivo.xml")
+        } catch (Exception e) {
+        }
+    }
+}

@@ -1,0 +1,40 @@
+package xml;
+
+import java.io.File;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+public class Main {
+    public static void main(String[] args) {
+        try {
+            File archivo = new File("archivo.xml");
+            DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
+            Document dc = documentBuilder.parse(archivo);
+            
+            System.out.println("Elemento principal: " +dc.getDocumentElement().getNodeName());
+            
+            NodeList ndList = dc.getElementsByTagName("estudiante");
+            System.out.println(" ");
+            
+            for (int i = 0; i < ndList.getLength(); i++) {
+				Node nodo = ndList.item(i);
+				
+				if (nodo.getNodeType() == Node.ELEMENT_NODE) {
+					Element element = (Element) nodo;
+					System.out.println("Numero: " + element.getAttribute("numero"));
+					System.out.println("Nombre: " +element.getElementsByTagName("nombre").item(0).getTextContent());
+					System.out.println("Apellido: " +element.getElementsByTagName("apellido").item(0).getTextContent());
+				}
+			}
+            
+        } catch (Exception e) {
+        }
+    }
+}
