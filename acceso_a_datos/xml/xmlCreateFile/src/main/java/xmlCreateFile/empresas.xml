@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Empresas>
+    <Nombre CIF="C0">
+        <Empleados>
+            <Codigo>0000</Codigo>
+        </Empleados>
+    </Nombre>
+    <Nombre CIF="C1">
+        <Empleados>
+            <Codigo>0001</Codigo>
+        </Empleados>
+    </Nombre>
+    <Nombre CIF="C2">
+        <Empleados>
+            <Codigo>0002</Codigo>
+        </Empleados>
+    </Nombre>
+</Empresas>
