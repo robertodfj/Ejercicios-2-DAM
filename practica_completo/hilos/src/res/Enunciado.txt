@@ -1,0 +1,18 @@
+Ejercicio: Simulador de Cajeros Automáticos
+
+Planteamiento:
+	1.	Hay un banco con varios cajeros automáticos disponibles (por ejemplo, 3). 
+	2.	Existen varios clientes que quieren retirar dinero. Cada cliente es un hilo.
+	3.	Reglas:
+	•	Un cliente solo puede usar un cajero automático si hay uno libre.
+	•	Si todos los cajeros están ocupados, el cliente espera hasta que alguno se libere.
+	•	Cada cliente tarda un tiempo aleatorio en realizar la operación (simula el tiempo que tarda en retirar dinero).
+	4.	Objetivo:
+	•	Sincronizar el acceso a los cajeros automáticos evitando condiciones de carrera.
+	•	Mostrar en consola qué cliente está usando qué cajero y cuándo termina.
+	•	Al final, imprimir un mensaje indicando que todos los clientes han terminado sus operaciones.
+
+Sugerencias:
+	•	Crear una clase Cliente que implemente Runnable o extienda Thread.
+	•	Crear una clase Banco que gestione los cajeros automáticos y sincronice el acceso con synchronized, wait() y notify().
+	•	El main debe lanzar varios hilos de clientes para simular la concurrencia.
