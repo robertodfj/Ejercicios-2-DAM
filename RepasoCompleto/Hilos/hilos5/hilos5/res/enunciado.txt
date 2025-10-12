@@ -1,0 +1,11 @@
+Enunciado:
+
+Crea una carrera entre 5 coches.
+Cada coche es un hilo que avanza una distancia total de 100 metros.
+Cada iteración avanza de 1 a 10 metros (aleatorio) y duerme un poco entre movimientos.
+
+Cuando un coche llegue a 100 o más:
+	•	Se detiene.
+	•	Muestra un mensaje como: 🏁 Coche 3 ha llegado a la meta.
+
+El programa debe mostrar el avance de todos los coches en porcentaje o con una pequeña barra.

@@ -1,5 +1,0 @@
-INDEX VERSION 1.134
-/Users/robertodfj/Desktop/tomcat y jsp/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3321430846.index
-/tomcat/src/main/java
-/Users/robertodfj/Desktop/tomcat y jsp/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3210621116.index
-/tomcat/src/main/java
