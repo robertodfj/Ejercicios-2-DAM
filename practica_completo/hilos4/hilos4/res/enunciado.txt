@@ -1,0 +1,12 @@
+Crea un programa en Java que simule la descarga de varios archivos en paralelo, usando un hilo por descarga.
+
+Cada hilo debe:
+	•	Tener un nombre (Archivo1, Archivo2, etc.).
+	•	Mostrar su barra de progreso en consola (del 0% al 100%).
+	•	Dormir un tiempo aleatorio entre actualizaciones para simular la velocidad de descarga.
+	•	Finalizar con un mensaje como “✅ Archivo1 completado”.
+
+El programa principal (Main) lanzará, por ejemplo, 3 hilos de descarga simultáneos.
+
+👉 Objetivo:
+Practicar el uso de hilos (Thread), el método sleep(), la sincronización al imprimir en consola (synchronized(System.out)), y la simulación de procesos paralelos.
