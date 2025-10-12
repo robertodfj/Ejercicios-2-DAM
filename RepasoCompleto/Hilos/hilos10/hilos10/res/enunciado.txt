@@ -1,0 +1,9 @@
+Enunciado: Problema de las tazas de café (Productor/Consumidor clásico)
+
+Un cafetero puede preparar café y un grupo de estudiantes puede beberlo. La cafetería tiene un número limitado de tazas disponibles. La idea es simular la interacción entre la producción y el consumo de café usando hilos:
+	1.	El cafetero prepara café y lo pone en una taza disponible. Si no hay tazas libres, debe esperar a que algún estudiante devuelva una taza.
+	2.	Cada estudiante toma una taza para beber café. Si no hay café listo, debe esperar a que el cafetero lo prepare.
+	3.	Una vez que el estudiante termina de beber, devuelve la taza al conjunto de tazas disponibles.
+	4.	Se deben coordinar los hilos de manera que no haya conflictos (por ejemplo, que dos estudiantes intenten usar la misma taza al mismo tiempo o que el cafetero prepare café en una taza ocupada).
+
+Objetivo: Implementar este escenario usando hilos en Java con sincronización adecuada (wait() / notify() o BlockingQueue), asegurando que todos los estudiantes puedan beber y devolver las tazas correctamente.
