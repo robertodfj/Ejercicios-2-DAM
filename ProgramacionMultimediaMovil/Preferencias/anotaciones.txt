@@ -1,0 +1,3 @@
+En /res/values/colors personalizamos los colores base de nuestra app
+En /res/values/themes tenemos el tema predeterminado oscuro y claro de nuestra app
+
