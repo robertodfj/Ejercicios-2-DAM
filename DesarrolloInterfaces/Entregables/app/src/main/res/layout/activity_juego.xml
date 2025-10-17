@@ -28,6 +28,12 @@
             android:textColor="@color/black"/>
 
 
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nuevo intento"
+            android:layout_marginBottom="50sp"/>
 
         <EditText
             android:id="@+id/editTextText"
@@ -35,13 +41,13 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:text="¡Pon aqui el numero!" />
+            android:text="" />
 
         <Button
             android:id="@+id/aplicar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Aplicar numero" />
 
         <TextView
             android:layout_marginTop="50dp"
@@ -52,6 +58,12 @@
             android:textSize="60dp"
             android:layout_gravity="center"
             android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/intentos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intentos Restantes: " />
 
     </LinearLayout>
 
@@ -66,14 +78,14 @@
         android:padding="20dp">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btnInicio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Volver a inicio"
             android:layout_marginRight="20dp"/>
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/btnAjustes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Ajustes" />
