@@ -18,6 +18,9 @@ import androidx.core.view.WindowInsetsCompat;
 public class Juego extends AppCompatActivity {
     int numeroAleatorio;
     int intentos;
+    int mejorIntento = Integer.MAX_VALUE;
+
+    int intentoActual;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,6 +71,8 @@ public class Juego extends AppCompatActivity {
                 resultado.setText("");
                 editText.setText("");
 
+                intentoActual = 0;
+
                 // Mensaje opcional
                 Toast.makeText(Juego.this, "¡Nuevo número generado! Intenta adivinar.", Toast.LENGTH_SHORT).show();
             }
@@ -76,6 +81,7 @@ public class Juego extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int numeroEntrada = Integer.parseInt(editText.getText().toString());
+                intentoActual++;
 
                 if (numeroEntrada > numeroAleatorio && intentos > 1) {
                     resultado.setText("?<" + numeroEntrada);
@@ -85,6 +91,13 @@ public class Juego extends AppCompatActivity {
                     intentos--;
                 } else if (numeroEntrada == numeroAleatorio) {
                     resultado.setText("CORRECTO!");
+                    if (intentoActual < mejorIntento){
+                        mejorIntento = intentoActual;
+                        Intent i = new Intent(Juego.this, Historial.class);
+                        i.putExtra("mejorintento", mejorIntento);
+                        startActivity(i);
+                        Toast.makeText(Juego.this, "Este es el mejor intento", Toast.LENGTH_SHORT).show();
+                    }
                 } else {
                     // Se acabaron los intentos
                     new AlertDialog.Builder(Juego.this)

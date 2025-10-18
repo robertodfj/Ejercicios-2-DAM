@@ -36,19 +36,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnHistorial.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i2 = new Intent(MainActivity.this, Ajustes.class);
-                startActivity(i2);
-            }
-        });
-
         btnAjustes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i3 = new Intent(MainActivity.this, Historial.class);
-                startActivity(i3);
+                Intent intent = new Intent(MainActivity.this, Ajustes.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        btnHistorial.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Historial.class);
+                startActivity(intent);
+                finish();
             }
         });
 

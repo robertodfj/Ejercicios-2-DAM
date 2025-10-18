@@ -1,6 +1,8 @@
 package com.example.ej2adivinanza;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,11 @@ public class Historial extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        TextView textView = findViewById(R.id.textMejor);
+
+        Intent i = getIntent();
+        int mejorIntento = i.getIntExtra("mejorintento", Integer.MAX_VALUE);
+        textView.setText(mejorIntento);
     }
 }
