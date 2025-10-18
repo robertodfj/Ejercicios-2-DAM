@@ -1,6 +1,7 @@
 package com.example.imc;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -52,8 +53,22 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder> {
         // Botón Ver
         holder.ver.setOnClickListener(v -> {
             AlertDialog.Builder alerta = new AlertDialog.Builder(context);
-            String name = cardList.get(position).getTitulo();
+
+            String name = card.getTitulo();
+            float peso = card.getPesoKG();
+            float altura = card.getAltura();
+            float resultado = card.getResultadoIMC();
             alerta.setTitle("Vista de " +name);
+            alerta.setMessage("Peso: " + peso + " kg\nAltura: " + altura + " m\nResultado IMC: " + resultado);
+            alerta.setNegativeButton("Cancelar", null); // Cancelar
+            //alerta.setPositiveButton("Editar" (dialog, which) -> {
+                //Intent intent = new Intent(context, );
+                //intent.putExtra("card", card);
+                //context.startActivity(intent);
+           // }); // Ir a la actividad de editar
+
+            alerta.show();
+
         });
 
         // Botón Borrar
