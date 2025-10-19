@@ -1,6 +1,8 @@
 package com.example.imc;
 
-public class CardModel {
+import java.io.Serializable;
+
+public class CardModel implements Serializable {
     String titulo;
     float pesoKG;
     float altura;

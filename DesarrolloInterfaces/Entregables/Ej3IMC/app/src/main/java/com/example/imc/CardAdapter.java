@@ -61,11 +61,11 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder> {
             alerta.setTitle("Vista de " +name);
             alerta.setMessage("Peso: " + peso + " kg\nAltura: " + altura + " m\nResultado IMC: " + resultado);
             alerta.setNegativeButton("Cancelar", null); // Cancelar
-            //alerta.setPositiveButton("Editar" (dialog, which) -> {
-                //Intent intent = new Intent(context, );
-                //intent.putExtra("card", card);
-                //context.startActivity(intent);
-           // }); // Ir a la actividad de editar
+            alerta.setPositiveButton("Editar", (dialog, which) -> {
+                Intent intent = new Intent(context, Editar.class);
+                intent.putExtra("card", card);
+                context.startActivity(intent);
+           });
 
             alerta.show();
 
