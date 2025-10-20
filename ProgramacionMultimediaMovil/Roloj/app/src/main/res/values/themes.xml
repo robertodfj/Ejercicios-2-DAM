@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Roloj" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Colores de marca -->
+        <item name="colorPrimary">@color/amarillo</item>
+        <item name="colorOnPrimary">@color/negro</item>
+        <item name="colorSecondary">@color/amarilloSuave</item>
+        <item name="colorOnSecondary">@color/negro</item>
+
+        <!-- Fondo y texto -->
+        <item name="android:colorBackground">@color/grisOscuro</item>
+        <item name="android:textColorPrimary">@color/blanco</item>
+        <item name="android:textColorSecondary">@color/grisClaro</item>
+
+        <!-- Barra de estado -->
+        <item name="android:statusBarColor">@color/negro</item>
+        <item name="android:navigationBarColor">@color/negro</item>
+
+        <!-- Componentes Material redondeados -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Material3.Corner.Full</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Material3.Corner.Full</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Material3.Corner.Full</item>
+    </style>
+
+</resources>

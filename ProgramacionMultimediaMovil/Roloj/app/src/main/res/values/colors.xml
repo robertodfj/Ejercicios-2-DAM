@@ -1,0 +1,9 @@
+<resources>
+    <color name="grisClaro">#E0E0E0</color>     <!-- Texto secundario / iconos -->
+    <color name="grisOscuro">#1C1C1C</color>    <!-- Fondo principal -->
+    <color name="amarillo">#FFD54F</color>      <!-- Acento principal (más cálido) -->
+    <color name="amarilloSuave">#FFF176</color> <!-- Acento suave para hover / pulsado -->
+    <color name="negro">#000000</color>
+    <color name="black">#000000</color>  <!-- Fondo absoluto -->
+    <color name="blanco">#FFFFFF</color>        <!-- Texto principal -->
+</resources>
