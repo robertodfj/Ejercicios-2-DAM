@@ -1,0 +1,4 @@
+id,nombre,email,rol
+1,Roberto,roberto@mail.com,ADMIN
+2,Amador,amador@mail.com,USER
+3,Lucia,lucia@mail.com,USER
