@@ -1,0 +1,12 @@
+<usuarios>
+    <usuario>
+        <nombre>Juan</nombre>
+        <edad>25</edad>
+        <ciudad>Madrid</ciudad>
+    </usuario>
+    <usuario>
+        <nombre>Lucía</nombre>
+        <edad>30</edad>
+        <ciudad>Sevilla</ciudad>
+    </usuario>
+</usuarios>
