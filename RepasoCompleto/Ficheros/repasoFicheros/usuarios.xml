@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<usuarios>
+    <usuario>
+        <nombre>Juan</nombre>
+        <apellido>Pérez</apellido>
+        <edad>30</edad>
+        <ciudad>37300</ciudad>
+    </usuario>
+</usuarios>
