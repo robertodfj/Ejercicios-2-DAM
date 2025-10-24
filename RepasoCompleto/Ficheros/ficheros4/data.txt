@@ -1,0 +1,6 @@
+--- CONTENIDO INICIAL DEL FICHERO ---
+Línea 1: Hola desde el fichero original.
+Línea 2: Aquí pueden leer los hilos lectores.
+Línea 3: Los escritores añadirán nuevas líneas al final.
+--- FIN DEL CONTENIDO INICIAL ---
+Nueva línea escrita por el hilo Usuario 2
