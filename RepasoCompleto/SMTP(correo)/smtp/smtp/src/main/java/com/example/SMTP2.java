@@ -11,7 +11,7 @@ public class SMTP2 {
     public static void main(String[] args) {
         String servidor = "smtp.gmail.com";
         String emisor = "robertodfj93@gmail.com";
-        String password = "uaiqjghmeudgeyev"; // Usamos APP pasword
+        String password = ""; // Usamos APP pasword
         String receptor = "robertodfj93@gmail.com";
 
         try {
