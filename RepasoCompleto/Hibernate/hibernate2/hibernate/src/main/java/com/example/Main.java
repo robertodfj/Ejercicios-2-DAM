@@ -22,7 +22,7 @@ public class Main {
             HibernateUtil.getSessionFactory().close();
 
         } catch (Exception e) {
-            // TODO: handle exception
+            System.out.println("Ha ocurrido un error: " + e.getMessage());
         }
     }
 }
