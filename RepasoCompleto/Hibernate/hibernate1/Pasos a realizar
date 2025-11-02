@@ -1,0 +1,6 @@
+    1. Tenemos que crear el proyecto maven con las depencencias de hibernate y mysql
+    2. Creamos el hibernate.cfg.xml en resources
+    3. Creamos los POJOS necesarios (Clases que usaremos)
+    4. Configura lo restante de hibernate con HibernateUtils.java
+    5. En la clase main o en test, creamos una consulta a la bd
+    
