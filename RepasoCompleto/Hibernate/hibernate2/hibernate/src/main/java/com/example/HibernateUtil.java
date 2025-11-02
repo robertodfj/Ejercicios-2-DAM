@@ -24,11 +24,11 @@ public class HibernateUtil {
         
     }
 
-    private static SessionFactory getSessionFactory() {
+    public static SessionFactory getSessionFactory() {
         return SESSION_FACTORY;
     }
 
-    private static void close(){
+    public static void close(){
         getSessionFactory().close();
     }
 }
