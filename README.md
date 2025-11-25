@@ -1,70 +1,40 @@
-# 🟩🖤 Portfolio 2026 – Roberto de Frutos
+# 📚 Repositorio de prácticas y proyectos de 2º DAM
 
-Este portfolio representa mi evolución como desarrollador **front-end y full-stack**, con una versión completamente renovada, pulida y con una estética mucho más profesional. Incluye nuevas tecnologías, un diseño refinado y una experiencia visual más moderna que la edición anterior.
-
----
-
-## 🟩 Tecnologías utilizadas
-
-- **⚛ React** – Librería principal para construir la interfaz.  
-- **⚡ Vite** – Entorno de desarrollo rápido y optimizado.  
-- **🎨 TailwindCSS** – Estilos modernos, responsive y minimalistas.  
-- **🧊 Three.js** – Motor para la tarjeta 3D interactiva.  
-- **📜 JavaScript / JSX** – Lógica de componentes.  
-- **🧩 HTML5 & CSS3** – Base de la estructura y estilos.
+Este repositorio contiene ejercicios y proyectos correspondientes a las asignaturas de 2º curso de **Desarrollo de Aplicaciones Multiplataforma (DAM)**. Incluye tanto prácticas de repaso como el **proyecto final** presentado para la realización del módulo.
 
 ---
 
-## 🖤 Mejoras respecto al portfolio anterior
+## 🏫 Asignaturas incluidas
 
-- 🟩 Diseño visual más pulido y profesional.  
-- 🟩 Estructura del código limpia y organizada.  
-- 🟩 Animaciones suaves y modernas.  
-- 🟩 Interacciones avanzadas mediante Three.js.  
-- 🟩 Paleta de colores más coherente y equilibrada.  
-- 🟩 Tipografía y espaciados más cuidados.  
-- 🟩 Mejor rendimiento gracias a Vite.  
-- 🟩 Código más mantenible y escalable.
+- **🗄 Acceso a Datos**: ejercicios con bases de datos, consultas SQL, JDBC y persistencia de datos en Java.  
+- **🎨 Programación Multimedia**: prácticas de gráficos, animaciones, audio y vídeo.  
+- **🖥 Desarrollo de Interfaces**: creación de interfaces de usuario en Java y buenas prácticas de diseño.  
+- **📦 Proyecto Intermodular**: desarrollo del proyecto final integrando conocimientos de varias asignaturas.  
+- **⚙ Programación de Servicios y Procesos**: ejercicios sobre hilos, concurrencia, comunicación entre procesos y servicios.
 
 ---
 
-## 🟩 Funcionalidades destacadas
-
-- **🖤 Tarjeta 3D dinámica** creada con Three.js.  
-- **🖤 Animaciones al hacer scroll** para mejorar la experiencia de usuario.  
-- **🖤 Navegación fluida y minimalista**.  
-- **🖤 Diseño completamente responsive** adaptado a todas las resoluciones.
+## 📂 Estructura del proyecto
+DAM-2º
+│
+├─ AccesoADatos/
+│
+├─ ProgramacionMultimedia/
+│
+├─ DesarrolloInterfaces/
+│
+├─ ServiciosYProcesos/
+│
+└─ ProyectoIntermodular/
+│
+└─ README.md
 
 ---
- Objetivo del portfolio
 
-Presentar de una manera elegante, moderna e interactiva:
-	•	Mis proyectos recientes.
-	•	Mis habilidades como desarrollador.
-	•	Mi estilo personal de diseño.
-	•	Mi crecimiento técnico durante 2025 – 2026.
+## ⚡ Contenido
 
-⸻
+- Ejercicios prácticos organizados por asignatura y tema.  
+- Ejercicios de repaso utilizados para consolidar los conocimientos adquiridos durante el curso.  
+- Proyecto final del módulo intermodular, con todos los elementos necesarios para su ejecución.
 
-🟩 Contacto
-
-📧 Email: robertodfj93@gmail.com
-🐙 GitHub: https://github.com/robertodfj
-💼 LinkedIn: https://www.linkedin.com/in/robertodfj/
-
-⸻
-
-🟩🖤 ¡Gracias por visitar mi Portfolio 2026!
-
-Espero que disfrutes tanto la experiencia visual y técnica como yo he disfrutado desarrollándolo.
-
-## 🟩 Cómo ejecutar el proyecto
-
-```bash
-git clone https://github.com/robertodfj/portfolio-2026.git
-cd portfolio-2026
-npm install
-npm run dev
-
-
-
+---
